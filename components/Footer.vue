@@ -1,15 +1,39 @@
 <template>
-    <div>
-      <footer class="bg-body-tertiary text-center text-lg-start" style="background-color: lightgray; margin-top: 50px;">
-        <div class="container p-4">
-          <div class="row" style="text-align: center;">
-            <div class="col-lg-12 mb-4 mb-md-0">
-              <!-- Teks SMKN 4 Tasikmalaya di tengah -->
-              <div style="text-align: center; font-weight: bold; font-size: 18px;">SMKN 4 Tasikmalaya</div>
-            </div>
-          </div>
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <!-- Alamat -->
+        <div class="col-md-6 mb-3">
+          <h5>Alamat</h5>
+          <p>
+            Jl Depok Kel. Sukamenak Kec. Purbaratubratu <br>
+            Kota Tasikmalaya.<br>
+            Kode Pos: 46196.
+          </p>
+          <p>
+            <i class="bi bi-telephone-fill"></i> +62265312059
+          </p>
+          <p>
+            <i class="bi bi-envelope-fill"></i> info@smkn4-tsm.sch.id
+          </p>
         </div>
-      </footer>
+      </div>
     </div>
-  </template>
-  
+  </footer>
+</template>
+
+<script>
+export default {
+  name: "Footer",
+};
+</script>
+
+<style scoped>
+footer a:hover {
+  text-decoration: underline;
+}
+
+.social-icons i {
+  font-size: 1.5rem;
+}
+</style>
