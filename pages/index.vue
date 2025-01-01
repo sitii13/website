@@ -1,147 +1,161 @@
 <template>
-  <!-- Logo Section -->
-  <div class="text-center mt-5">
-    <img src="~/assets/img/home.jpg" alt="Logo SMKN 4 Tasikmalaya" class="img-fluid rounded" />
-  </div>
-
-  <!-- Sambutan Kepala Sekolah Section -->
-  <h2 class="text-drak text-center py-4 mt-5 mb-4 rounded-3 shadow-lg">SAMBUTAN KEPALA SEKOLAH</h2>
-  <div class="d-flex align-items-center justify-content-center mt-5 shadow-lg p-4 rounded-lg" style="background-color: #f7f7f7;">
-    <img src="~/assets/img/kepsek.png" alt="Kepala Sekolah" class="rounded-circle border border-4 border-info" style="width: 160px; height: 160px;" />
-    <div class="ms-4">
-      <h3 class="text-dark fw-bold">Sambutan Kepala Sekolah</h3>
-      <p class="text-muted">Assalamualaikum Warahmatullahi Wabarakatuh
-Selamat datang di SMKN 4 Tasikmalaya. Segala puji dan syukur kita panjatkan kehadirat Allah SWT, semoga kita semua ada dalam lindungan-Nya. Dan atas perkenan-Nya pula kami dapat menghadirkan website SMK Negeri 4 Tasikmalaya ini. Kami berharap dengan adanya website di SMK Negeri 4 Tasikmalaya ini para pengunjung dapat mengenal lebih jauh tentang sekolah kami sehingga dapat mempererat tali silaturrahmi antara sekolah dengan masyarakat demi kemajuan kita bersama. Tiada gading yang tak retak, website kami ini masih dalam proses pengembangan, masih banyak kekurangan yang harus kami perbaiki. Kritik dan sarannya yang membangun sangat kami harapkan untuk pengembangan ke depan.
-Akhirnya, saya mengucapkan terimakasih yang sebesar-besarnya kepada semua pihak yang tidak dapat disebutkan satu segala bantuan dan persatu atas fasilitasnya yang telah diberikan semoga semua yang kita lakukan bermanfaat bagi masyarakat. Wassalamu'alaikum Warahmatullahi Wabarakatuh.</p>
-      <small class="text-muted">Kepala Sekolah, SMKN 4 Tasikmalaya</small>
-    </div>
-  </div>
-
-  <!-- Jurusan Section -->
-  <div id="jurusan" class="container mt-5">
-    <div class="row">
-      <div class="col text-center">
-        <h2 class="fw-bold">Jurusan</h2>
-        <p class="text-muted">"SMKN 4 Tasikmalaya menyediakan berbagai jurusan yang menarik dan berkualitas."</p>
+  <div>
+    <!-- Hero Section -->
+    <section class="hero-section text-center text-white py-5">
+      <div class="container">
+        <h1 class="display-4 mb-4">Selamat Datang di SMKN 4 Tasikmalaya</h1>
+        <p class="lead mb-4">Temukan informasi terbaru mengenai kegiatan, prestasi, dan program unggulan kami</p>
       </div>
-    </div>
+    </section>
 
-    <!-- Row Card Jurusan -->
-    <div class="row mt-5">
-      <!-- Card TKJ -->
-      <div class="col-lg-4 col-md-6 mb-5">
-        <div class="shadow card h-100 card-hover rounded-3">
-          <div class="card-body text-center bg-primary rounded-top">
-            <img src="~/assets/img/tkj.png" alt="Logo Sekolah" width="50" height="55" class="me-2" />
-            <h5 class="card-title text-white">Teknik Komputer dan Jaringan (TKJ)</h5>
-            <p class="card-text text-white">Mahir dalam jaringan komputer dan teknologi informasi. Jurusan ini fokus pada penguasaan konsep dan praktik dalam membangun, mengelola, dan mengamankan jaringan komputer.</p>
-            <p class="card-text text-white"><strong>Jumlah Murid: 120</strong></p>
+    <!-- Gambar di atas Sambutan Kepala Sekolah -->
+    <section class="header-image-section">
+      <img src="~/assets/img/home.jpg" alt="Selamat Datang Di Website SMKN 4" class="img-fluid w-100" />
+    </section>
+
+    <!-- Sambutan Kepala Sekolah -->
+    <section class="sambutan-section py-5" id="sambutan">
+      <div class="container text-center">
+        <h2 class="mb-4">Sambutan Kepala Sekolah</h2>
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <img src="~/assets/img/kepsek.png" alt="Kepala Sekolah" class="img-fluid rounded-circle" />
+          </div>
+          <div class="col-md-8">
+            <p class="lead">Selamat datang di website resmi SMKN 4 Tasikmalaya. Kami dengan bangga mempersembahkan berbagai informasi tentang sekolah kami, kegiatan, dan prestasi yang telah kami capai.</p>
+            <p><small class="text-muted">Kepala Sekolah, SMKN 4 Tasikmalaya</small></p>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Card RPL -->
-      <div class="col-lg-4 col-md-6 mb-5">
-        <div class="shadow card h-100 card-hover rounded-3">
-          <div class="card-body text-center bg-success rounded-top">
-            <img src="~/assets/img/rpl.png" alt="Logo Sekolah" width="50" height="55" class="me-2" />
-            <h5 class="card-title text-white">Rekayasa Perangkat Lunak (RPL)</h5>
-            <p class="card-text text-white">Ahli dalam pengembangan perangkat lunak modern. Jurusan ini mempelajari cara merancang, mengembangkan, dan memelihara perangkat lunak, termasuk aplikasi berbasis desktop, web, dan mobile.</p>
-            <p class="card-text text-white"><strong>Jumlah Murid: 100</strong></p>
+    <!-- Berita Terbaru -->
+    <section class="berita-section py-5" id="berita">
+      <div class="container text-center">
+        <h2 class="mb-4">Berita Terbaru</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="~/assets/img/expo.webp" class="card-img-top" alt="Expo" />
+              <div class="card-body">
+                <h5 class="card-title">Expo Sekolah</h5>
+                <p class="card-text">Update terbaru tentang Expo sekolah kami, kegiatan yang menarik dan penuh informasi.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="~/assets/img/fair.jpg" class="card-img-top" alt="Job Fair" />
+              <div class="card-body">
+                <h5 class="card-title">Job Fair</h5>
+                <p class="card-text">Dapatkan informasi terbaru mengenai Job Fair yang akan diadakan oleh sekolah.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="~/assets/img/binsik.jpg" class="card-img-top" alt="Binsik" />
+              <div class="card-body">
+                <h5 class="card-title">Binsik</h5>
+                <p class="card-text">Kegiatan binsik adalah bimbingan fisik untuk kelas 12 yang bertujuan untuk mempersiapkan ujian akhir.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Card DKV -->
-      <div class="col-lg-4 col-md-6 mb-5">
-        <div class="shadow card h-100 card-hover rounded-3">
-          <div class="card-body text-center bg-warning rounded-top">
-            <img src="~/assets/img/dkv.png" alt="Logo Sekolah" width="50" height="55" class="me-2" />
-            <h5 class="card-title text-dark">Desain Komunikasi Visual (DKV)</h5>
-            <p class="card-text text-dark">Kreatif dalam seni desain dan komunikasi visual. Jurusan ini mengajarkan seni dan teknik dalam menciptakan desain visual yang komunikatif dan menarik.</p>
-            <p class="card-text text-dark"><strong>Jumlah Murid: 90</strong></p>
-          </div>
+    <!-- Jurusan Section -->
+    <section id="jurusan" class="container mt-5">
+      <div class="row">
+        <div class="col text-center">
+          <h2 class="fw-bold">Jurusan</h2>
+          <p class="text-muted">"SMKN 4 Tasikmalaya menyediakan berbagai jurusan yang menarik dan berkualitas."</p>
         </div>
       </div>
 
-      <!-- Card TBSM -->
-      <div class="col-lg-6 col-md-6 mb-5">
-        <div class="shadow card h-100 card-hover rounded-3">
-          <div class="card-body text-center bg-danger rounded-top">
-            <img src="~/assets/img/tsm.png" alt="Logo Sekolah" width="50" height="55" class="me-2" />
-            <h5 class="card-title text-white">Teknik Bisnis Sepeda Motor (TBSM)</h5>
-            <p class="card-text text-white">Ahli dalam perbaikan dan manajemen bisnis sepeda motor. Jurusan ini mempelajari teknik perawatan, perbaikan, dan modifikasi sepeda motor, sekaligus menanamkan keterampilan kewirausahaan.</p>
-            <p class="card-text text-white"><strong>Jumlah Murid: 80</strong></p>
+      <!-- Row Card Jurusan -->
+      <div class="row mt-4">
+        <!-- Card TKJ -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="shadow card h-100 card-hover rounded-lg">
+            <div class="card-body text-center bg-primary rounded-top">
+              <img src="~/assets/img/tkj.png" alt="Logo Sekolah" width="40" height="45" class="me-2">
+              <h5 class="card-title">Teknik Komputer dan Jaringan (TKJ)</h5>
+              <p class="card-text">Mahir dalam jaringan komputer dan teknologi informasi. Jurusan ini fokus pada penguasaan konsep dan praktik dalam membangun, mengelola, dan mengamankan jaringan komputer.</p>
+              <p class="card-text"><strong>Jumlah Murid: 120</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card RPL -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="shadow card h-100 card-hover rounded-lg">
+            <div class="card-body text-center bg-success rounded-top">
+              <img src="~/assets/img/rpl.png" alt="Logo Sekolah" width="40" height="45" class="me-2">
+              <h5 class="card-title">Rekayasa Perangkat Lunak (RPL)</h5>
+              <p class="card-text">Ahli dalam pengembangan perangkat lunak modern. Jurusan ini mempelajari cara merancang, mengembangkan, dan memelihara perangkat lunak, termasuk aplikasi berbasis desktop, web, dan mobile.</p>
+              <p class="card-text"><strong>Jumlah Murid: 100</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card DKV -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="shadow card h-100 card-hover rounded-lg">
+            <div class="card-body text-center bg-warning rounded-top">
+              <img src="~/assets/img/dkv.png" alt="Logo Sekolah" width="40" height="45" class="me-2">
+              <h5 class="card-title">Desain Komunikasi Visual (DKV)</h5>
+              <p class="card-text">Kreatif dalam seni desain dan komunikasi visual. Jurusan ini mengajarkan seni dan teknik dalam menciptakan desain visual yang komunikatif dan menarik.</p>
+              <p class="card-text"><strong>Jumlah Murid: 90</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card TBSM -->
+        <div class="col-lg-6 col-md-6 mb-4">
+          <div class="shadow card h-100 card-hover rounded-lg">
+            <div class="card-body text-center bg-danger rounded-top">
+              <img src="~/assets/img/tsm.png" alt="Logo Sekolah" width="40" height="45" class="me-2">
+              <h5 class="card-title">Teknik Bisnis Sepeda Motor (TBSM)</h5>
+              <p class="card-text">Ahli dalam perbaikan dan manajemen bisnis sepeda motor. Jurusan ini mempelajari teknik perawatan, perbaikan, dan modifikasi sepeda motor, sekaligus menanamkan keterampilan kewirausahaan.</p>
+              <p class="card-text"><strong>Jumlah Murid: 80</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card TOI -->
+        <div class="col-lg-6 col-md-6 mb-4">
+          <div class="shadow card h-100 card-hover rounded-lg">
+            <div class="card-body text-center bg-secondary rounded-top">
+              <img src="~/assets/img/toi.png" alt="Logo Sekolah" width="40" height="45" class="me-2">
+              <h5 class="card-title">Teknik Otomasi Industri (TOI)</h5>
+              <p class="card-text">Mahir dalam sistem otomatisasi dan teknologi industri. Jurusan ini berfokus pada teknologi otomotif yang diterapkan dalam skala industri.</p>
+              <p class="card-text"><strong>Jumlah Murid: 70</strong></p>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Card TOI -->
-      <div class="col-lg-6 col-md-6 mb-5">
-        <div class="shadow card h-100 card-hover rounded-3">
-          <div class="card-body text-center bg-secondary rounded-top">
-            <img src="~/assets/img/toi.png" alt="Logo Sekolah" width="50" height="55" class="me-2" />
-            <h5 class="card-title text-white">Teknik Otomasi Industri (TOI)</h5>
-            <p class="card-text text-white">Mahir dalam sistem otomatisasi dan teknologi industri. Jurusan ini berfokus pada teknologi otomotif yang diterapkan dalam skala industri.</p>
-            <p class="card-text text-white"><strong>Jumlah Murid: 70</strong></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Berita Section -->
-  <div id="berita" class="container mt-5">
-    <div class="row">
-      <div class="col text-center">
-        <h2 class="fw-bold">Berita Terbaru</h2>
-        <p class="text-muted">"Berita terbaru seputar kegiatan dan informasi penting SMKN 4 Tasikmalaya."</p>
-      </div>
-    </div>
-
-    <!-- Row Berita Cards -->
-    <div class="row mt-5">
-      <div class="col-lg-4 col-md-6 mb-5">
-        <div class="shadow card h-100 card-hover rounded-3">
-          <img src="~/assets/img/13.jpeg" alt="Berita 1" class="card-img-top rounded-3" />
-          <div class="card-body">
-            <h5 class="card-title">Pelatihan Teknologi Jaringan</h5>
-            <p class="card-text">SMKN 4 Tasikmalaya mengadakan pelatihan teknologi jaringan untuk siswa jurusan TKJ. Acara ini dihadiri oleh pakar di bidangnya dan bertujuan untuk meningkatkan keterampilan siswa dalam jaringan komputer.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 mb-5">
-        <div class="shadow card h-100 card-hover rounded-3">
-          <img src="~/assets/img/12.jpeg" alt="Berita 2" class="card-img-top rounded-3" />
-          <div class="card-body">
-            <h5 class="card-title">Workshop Desain Komunikasi Visual</h5>
-            <p class="card-text">Jurusan DKV mengadakan workshop untuk siswa dalam pembuatan desain komunikasi visual. Para siswa belajar langsung dengan ahli desain untuk menciptakan karya kreatif dan inovatif.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 mb-5">
-        <div class="shadow card h-100 card-hover rounded-3">
-          <img src="~/assets/img/14.jpeg" alt="Berita 3" class="card-img-top rounded-3" />
-          <div class="card-body">
-            <h5 class="card-title">Pencapaian Siswa RPL di Lomba Nasional</h5>
-            <p class="card-text">Siswa jurusan RPL berhasil meraih juara pertama dalam lomba pengembangan perangkat lunak tingkat nasional. Prestasi ini membanggakan sekolah dan menjadi inspirasi bagi siswa lainnya.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-4">
+      <p>&copy; 2024 SMKN 4 Tasikmalaya | Semua Hak Cipta Dilindungi</p>
+    </footer>
   </div>
 </template>
 
 <script>
 export default {
+  name: 'HomePage',
   data() {
     return {
-      berita: [
-        { title: "Pelatihan Teknologi Jaringan", description: "SMKN 4 Tasikmalaya mengadakan pelatihan teknologi jaringan untuk siswa jurusan TKJ.", image: "~/assets/img/berita1.jpg" },
-        { title: "Workshop Desain Komunikasi Visual", description: "Jurusan DKV mengadakan workshop untuk siswa dalam pembuatan desain komunikasi visual.", image: "~/assets/img/berita2.jpg" },
-        { title: "Pencapaian Siswa RPL di Lomba Nasional", description: "Siswa jurusan RPL berhasil meraih juara pertama dalam lomba pengembangan perangkat lunak tingkat nasional.", image: "~/assets/img/berita3.jpg" }
+      jurusan: [
+        { name: "Teknik Komputer dan Jaringan (TKJ)", description: "Mahir dalam jaringan komputer dan teknologi informasi.", students: 120 },
+        { name: "Rekayasa Perangkat Lunak (RPL)", description: "Ahli dalam pengembangan perangkat lunak modern.", students: 100 },
+        { name: "Desain Komunikasi Visual (DKV)", description: "Kreatif dalam seni desain dan komunikasi visual.", students: 90 },
+        { name: "Teknik Bisnis Sepeda Motor (TBSM)", description: "Ahli dalam perbaikan dan manajemen bisnis sepeda motor.", students: 80 },
+        { name: "Teknik Otomasi Industri (TOI)", description: "Mahir dalam sistem otomatisasi dan teknologi industri.", students: 70 }
       ]
     };
   }
@@ -149,41 +163,92 @@ export default {
 </script>
 
 <style scoped>
-/* General Card Styles */
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url('~/assets/img/hero-bg.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 5rem 0;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-section .lead {
+  font-size: 1.25rem;
+}
+
+/* Gambar di atas Sambutan Kepala Sekolah */
+.header-image-section img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+/* Sambutan Kepala Sekolah Section */
+.sambutan-section {
+  background-color: #f8f9fa;
+}
+
+.sambutan-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Berita Terbaru Section */
+.berita-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
 .card {
-  border-radius: 20px;
-  transition: transform 0.3s ease-in-out;
-  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
 }
 
 .card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
 }
 
-/* Card Content Styling */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+}
+
+footer p {
+  margin: 0;
+  color: #adb5bd;
+}
+
+/* Card Jurusan Styles */
 .card-body {
   padding: 25px;
 }
 
 .card-title {
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .card-text {
   font-size: 1rem;
-  line-height: 1.6;
-  color: #333;
+  line-height: 1.5;
 }
 
-.card-img-top {
-  height: 200px;
-  object-fit: cover;
-  border-radius: 15px;
-}
-
-/* Background Colors */
 .bg-primary {
   background-color: #007bff !important;
 }
@@ -204,20 +269,36 @@ export default {
   background-color: #6c757d !important;
 }
 
-/* Spacing */
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
+.card-body img {
+  border-radius: 50%;
+  margin-bottom: 15px;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section .lead {
+    font-size: 1rem;
+  }
+
+  .sambutan-section .row {
+    flex-direction: column-reverse;
+  }
+
+  .sambutan-section img {
+    width: 100%;
+    height: auto;
+  }
+
   .card-title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .card-text {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 }
 </style>
