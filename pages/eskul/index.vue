@@ -12,7 +12,7 @@
           <div class="col-4 text-center p-5"><img src="../../assets/img/pks.jpeg" alt=""> <h4>POLISI KEAMANAN SEKOLAH</h4></div>
           <div class="col-4 text-center p-5"><img src="../../assets/img/plh.jpeg" alt=""> <h4>PENDIDIKAN LINGKUNGAN HIDUP</h4></div>
           <div class="col-4 text-center p-5"><img src="../../assets/img/pmr.jpeg" alt=""> <h4>PALANG MERAH REMAJA</h4></div>
-          <div class="col-4 text-center p-5"><img src="../../assets/img/pra.jpeg" alt=""> <h4>PRAMUKA</h4></div>
+          <div class="col-4 text-center p-5"><img src="../../assets/img/pramuka.jpeg" alt=""> <h4>PRAMUKA</h4></div>
       </div>
   </div>
 </template>
