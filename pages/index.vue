@@ -1,13 +1,5 @@
 <template>
   <div>
-    <!-- Hero Section -->
-    <section class="hero-section text-center text-white py-5">
-      <div class="container">
-        <h1 class="display-4 mb-4">Selamat Datang di SMKN 4 Tasikmalaya</h1>
-        <p class="lead mb-4">Temukan informasi terbaru mengenai kegiatan, prestasi, dan program unggulan kami</p>
-      </div>
-    </section>
-
     <!-- Gambar di atas Sambutan Kepala Sekolah -->
     <section class="header-image-section">
       <img src="~/assets/img/home.jpg" alt="Selamat Datang Di Website SMKN 4" class="img-fluid w-100" />
@@ -170,7 +162,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-  background: url('~/assets/img/hero-bg.jpg') no-repeat center center/cover;
+  background: url('~/assets/img/5.jpg') no-repeat center center/cover;
   color: white;
   padding: 5rem 0;
 }
